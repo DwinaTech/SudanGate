@@ -1,0 +1,550 @@
+/*================ Start Global ==============*/
+body{
+  background: #ddd;
+  font-size: 16px;
+  font-family: arial;
+  font-family: 'Audiowide', cursive;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*================ Start Header ==============*/
+header,h1,h2,h3{
+  font-family: 'Baloo', cursive;
+}
+header .brand{
+  max-height: 120px;
+  max-width: 100%;
+  background: #413c3c;
+}
+
+header .brand h1{
+  padding: 17px 5px;
+  font-size: 55px;
+}
+
+header nav{
+  min-height: 60px;
+  max-width: 100%;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+}
+
+header nav .links{
+  list-style: none;
+  padding-top: 16px;
+}
+
+header nav .links li{
+  display: inline-block;
+}
+
+header nav .links li a{
+  text-decoration: none;
+  padding: 16px 159px;
+  background: gray;
+  font-weight: bold;
+  color: #000;
+}
+
+header nav .links li .active{
+  padding: 16px 163px;
+  background: #000;
+  color: #ddd;
+}
+header nav .links li a:hover{
+  background: #000;
+  color: #ddd;
+}
+/*================ Start Main Content ==============*/
+.main-articles{
+  max-width: 66%;
+  background: #5a5555;
+  color: #fff;
+  overflow: hidden;
+}
+
+.main-articles .first-header,
+.main-articles .second-header{
+  background: #454141;
+    padding: 10px 0 15px 0;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    border-top: 3px solid #000;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.main-articles .article-1,
+.main-articles .article-2{
+  padding: 0 5px;
+  padding-bottom: 15px;
+  max-width: 100%;
+}
+
+.main-articles .article-1 h1,
+.main-articles .article-2 h1{
+    padding: 5px 0 15px 0;
+    color: #000;
+    font-size: 30px;
+}
+
+.main-articles .article-1 p,
+.main-articles .article-2 p{
+        padding: 10px 10px 20px 10px;
+}
+
+article img{
+  max-width: 100%;
+  max-height: 30%;
+  border-radius: 10px;
+}
+/*================= Start Aside Bar ===============*/
+.side-bar{
+  max-width: 34%;
+  background: #808080;
+  border-top: 3px solid #000;
+  min-height: 1360px;
+}
+
+.side-bar .aside-1 h2,
+.side-bar .aside-2 h2{
+  border-bottom: 2px solid #fff;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.side-bar .aside-1 .media{
+  font-size: 20px;
+  max-width: 100%;
+}
+
+.side-bar .aside-1 .media .face,
+.side-bar .aside-1 .media .youtobe,
+.side-bar .aside-1 .media .twitter{
+  display: block;
+  padding: 10px 0;
+  border: 2px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  background: #fff;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  max-width: 100%;
+}
+
+.side-bar .aside-1 .media .face{
+  color: #00f;
+}
+
+.side-bar .aside-1 .media .face:hover,
+.side-bar .aside-1 .media .face:focus{
+  color: #fff;
+  background: #00f;
+  border: 2px solid #00f;
+}
+
+.side-bar .aside-1 .media .youtobe{
+  color: red;
+}
+
+.side-bar .aside-1 .media .youtobe:hover,
+.side-bar .aside-1 .media .youtobe:focus{
+  color: #fff;
+  background: red;
+  border: 2px solid red;
+}
+
+.side-bar .aside-1 .media .twitter{
+  color: #0ff;
+}
+
+.side-bar .aside-1 .media .twitter:hover,
+.side-bar .aside-1 .media .twitter:focus{
+  color: #fff;
+  background: #0ff;
+  border: 2px solid #0ff;
+}
+
+.side-bar .aside-1,
+.side-bar .aside-2{
+  padding: 10px;
+  margin: 5px;
+  max-width: 100%;
+}
+/*================= Start About Us ===============*/
+.about-us{
+  background: #cdc9c9;
+}
+.about-us h1{
+  padding: 20px 0 5px 10px;
+  border-bottom: 1px solid #000;
+}
+.about-us .sudan-info{
+  padding: 20px;
+}
+
+.about-us .sudan-info p:first-child{
+  padding-bottom: 10px;
+}
+
+.about-us .sudan-info p:last-child{
+  padding-top: 10px;
+}
+/*================= Start Gallery ===============*/
+.gallery{
+ padding: 0 5px;
+ overflow: hidden;
+}
+.gallery h1:first-child{
+  font-size: 40px;
+  padding: 10px 5px;
+}
+.gallery .itmes{
+ max-width: 100%;
+ padding-bottom: 30px;
+ overflow: hidden;
+}
+
+.gallery .itmes .itme-1,
+.gallery .itmes .itme-2{
+  margin-right: 3%;
+}
+.gallery .itmes .itme-1,
+.gallery .itmes .itme-2,
+.gallery .itmes .itme-3{
+  max-width: 31.3333%;
+    float: left;
+}
+.gallery .itmes .itme-1 h2:first-child,
+.gallery .itmes .itme-2 h2:first-child,
+.gallery .itmes .itme-3 h2:first-child{
+    padding: 10px 0 2px 0;
+    font-size: 25px;
+    border-bottom: 2px dashed #cc0000;
+    margin-bottom: 15px;
+}
+.gallery .itmes .itme-1 img,
+.gallery .itmes .itme-2 img,
+.gallery .itmes .itme-3 img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+.gallery .itmes .itme-1 h4:last-child{
+
+}
+/*================= Start Footer ===============*/
+footer{
+  min-height: 60px;
+  color: #fff;
+  background: #000;
+  border-top: 2px solid #cc0000;
+}
+
+footer p{
+  padding-top: 18px;
+}
+/*================ Start My Frame Work ==============*/
+.container{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.float-l{
+  float: left;
+}
+
+.float-r{
+  float: right;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.btn{
+  background: #0ff;
+    color: #000;
+    padding: 2px 20px;
+    border: 2px solid #0ff;
+    border-radius: 5px;
+    line-height: 2em;
+    font-size: 16px;
+}
+
+.btn:hover,
+.btn:focus{
+  background: #cc0000;
+  color: #0ff;
+  border: 2px solid #cc0000;
+}
+
+.clear-fix{
+  clear: both;
+}
+
+.main-color{
+  color: #cc0000;
+}
+/*================ Start Media Query ==============*/
+@media(max-width: 567px){
+  header .brand h1{
+    font-size: 35px;
+    padding: 17px 5px;
+  }
+  .main-articles{
+    max-width: 100%;
+  }
+  .side-bar{
+    max-width: 100%;
+  }
+  header nav {
+      position: relative;
+      background: #7a3e3e;
+  }
+  header nav .links{
+    padding-top: 0;
+  }
+  header nav .links li {
+     display: block;
+  }
+  header nav .links li a {
+    padding: 10px;
+    display: block;
+    max-width: 100%;
+    border: 1px solid #cc0000;
+    text-align: center;
+  }
+  .dropmenu{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 999
+  }
+  nav .menu >a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 6px 14px 6px;
+    background: #cc0000;
+    color: #fff;
+  }
+  nav .menu >a:hover{
+    background: #000;
+    color: #cc0000;
+  }
+  nav .menu:hover .dropmenu{
+    display: block;
+  }
+  .btn{
+    padding: 0 6px;
+    border-radius: 5px;
+  }
+
+  nav form .btn{
+    padding: 12px 6px;
+    border-radius: 5px;
+  }
+
+  nav form{
+    margin-top: 0;
+    max-width: 100%;
+  }
+
+  nav form input[type="text"]{
+    padding: 20px 0 20px 5px;
+    border-radius: 5px;
+  }
+  .side-bar {
+    max-width: 100%;
+    min-height: 510px;
+  }
+}
+@media(min-width: 568px) and (max-width:767px){
+  .container {
+      max-width: 737px;
+  }
+  header .brand h1{
+    font-size: 45px;
+    padding: 17px 5px;
+  }
+  .main-articles{
+    max-width: 100%;
+  }
+  .side-bar{
+    max-width: 100%;
+  }
+  header nav {
+      position: relative;
+      background: #7a3e3e;
+  }
+  header nav .links{
+    padding-top: 0;
+  }
+  header nav .links li {
+     display: block;
+  }
+  header nav .links li a {
+    padding: 10px;
+    display: block;
+    max-width: 100%;
+    border: 1px solid #cc0000;
+    text-align: center;
+  }
+  .dropmenu{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 999
+  }
+  nav .menu >a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 6px 14px 6px;
+    background: #cc0000;
+    color: #fff;
+  }
+  nav .menu >a:hover{
+    background: #000;
+    color: #cc0000;
+  }
+  nav .menu:hover .dropmenu{
+    display: block;
+  }
+  .btn{
+    padding: 0 6px;
+    border-radius: 5px;
+  }
+
+  nav form .btn{
+    padding: 12px 6px;
+    border-radius: 5px;
+  }
+
+  nav form{
+    margin-top: 0;
+    max-width: 100%;
+  }
+
+  nav form input[type="text"]{
+    padding: 20px 0 20px 5px;
+    border-radius: 5px;
+  }
+  .side-bar {
+    max-width: 100%;
+    min-height: 510px;
+  }
+}
+
+@media (min-width: 768px) and  (max-width: 991px){
+  .container {
+      max-width: 738px;
+  }
+  .main-articles{
+    max-width: 100%;
+  }
+  .side-bar{
+    max-width: 100%;
+  }
+  header nav {
+      position: relative;
+      background: #7a3e3e;
+  }
+  header nav .links{
+    padding-top: 0;
+  }
+  header nav .links li {
+     display: block;
+  }
+  header nav .links li a {
+    padding: 10px;
+    display: block;
+    max-width: 100%;
+    border: 1px solid #cc0000;
+    text-align: center;
+  }
+  .dropmenu{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 999
+  }
+  nav .menu >a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 7px 10px 5px 10px;
+    background: #cc0000;
+    color: #fff;
+  }
+  nav .menu >a:hover{
+    background: #000;
+    color: #cc0000;
+  }
+  nav .menu:hover .dropmenu{
+    display: block;
+  }
+  .btn{
+    padding: 12px 10px;
+    border-radius: 5px;
+  }
+
+  nav form{
+    margin-top: 0;
+  }
+
+  nav form input[type="text"]{
+    padding: 20px 10px;
+    border-radius: 5px;
+  }
+  .side-bar {
+    max-width: 100%;
+    min-height: 510px;
+  }
+}
+
+@media (min-width: 992px) and  (max-width: 1199px){
+  .container {
+      max-width: 962px;
+  }
+  header nav .links li a{
+    padding: 16px 107px;
+  }
+  .hidden-md{
+    display: none;
+  }
+  .side-bar {
+    min-height: 1298px;
+}
+}
+
+@media (min-width: 1200px){
+  .container {
+      max-width: 1170px;
+  }
+  .hidden-lg{
+    display: none;
+  }
+}
