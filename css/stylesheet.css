@@ -374,6 +374,15 @@ footer p{
     max-width: 100%;
     min-height: 510px;
   }
+  gallery .itmes {
+    text-align: center;
+ }
+ gallery .itmes .itme-1,
+  .gallery .itmes .itme-2,
+   .gallery .itmes .itme-3 {
+    max-width: 100%;
+    float: none;
+}
 }
 @media(min-width: 568px) and (max-width:767px){
   .container {
@@ -453,6 +462,15 @@ footer p{
     max-width: 100%;
     min-height: 510px;
   }
+  .gallery .itmes {
+    text-align: center;
+ }
+ .gallery .itmes .itme-1,
+  .gallery .itmes .itme-2,
+   .gallery .itmes .itme-3 {
+    max-width: 100%;
+    float: none;
+}
 }
 
 @media (min-width: 768px) and  (max-width: 991px){
