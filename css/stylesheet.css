@@ -218,6 +218,10 @@ article img{
   max-width: 31.3333%;
   float: left;
 }
+
+.gallery .itmes .itme:not(:last-child){
+  margin-right: 3%;
+}
 .gallery .itmes .itme h2:first-child{
     padding: 10px 0 2px 0;
     font-size: 25px;
