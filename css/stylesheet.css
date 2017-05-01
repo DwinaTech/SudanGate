@@ -48,14 +48,13 @@ header nav .links li{
 
 header nav .links li a{
   text-decoration: none;
-  padding: 16px 159px;
+  padding: 16px 160px;
   background: gray;
   font-weight: bold;
   color: #000;
 }
 
 header nav .links li .active{
-  padding: 16px 163px;
   background: #000;
   color: #ddd;
 }
@@ -548,7 +547,7 @@ footer p{
       max-width: 962px;
   }
   header nav .links li a{
-    padding: 16px 107px;
+    padding: 16px 125px;
   }
   .hidden-md{
     display: none;
