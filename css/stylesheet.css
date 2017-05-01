@@ -219,6 +219,7 @@ article img{
   float: left;
 }
 
+.gallery .itmes .itme:nth-child()
 .gallery .itmes .itme:not(:last-child){
   margin-right: 3%;
 }
@@ -359,6 +360,9 @@ footer p{
  }
  nav form{
    display: none;
+ }
+ .gallery h1:first-child{
+   font-size: 35px;
  }
 }
 @media(min-width: 568px) and (max-width:767px){
