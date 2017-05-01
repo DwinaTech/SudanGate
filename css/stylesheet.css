@@ -400,8 +400,8 @@ footer p{
   }
   nav .menu >a{
     text-decoration: none;
-    font-size: 20px;
-    padding: 14px 6px 14px 6px;
+    font-size: 25px;
+    padding: 10px;
     background: #cc0000;
     color: #fff;
   }
@@ -428,7 +428,7 @@ footer p{
   }
 
   nav form input[type="text"]{
-    padding: 20px 0 20px 5px;
+    padding: 20px 10px 20px 15px;
     border-radius: 5px;
   }
   .side-bar {
