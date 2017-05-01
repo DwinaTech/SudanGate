@@ -219,7 +219,6 @@ article img{
   float: left;
 }
 
-.gallery .itmes .itme:nth-child()
 .gallery .itmes .itme:not(:last-child){
   margin-right: 3%;
 }
