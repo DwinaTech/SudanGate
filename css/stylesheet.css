@@ -328,8 +328,8 @@ footer p{
   }
   nav .menu >a{
     text-decoration: none;
-    font-size: 20px;
-    padding: 14px 6px 14px 6px;
+    font-size: 25px;
+    padding: 10px;
     background: #cc0000;
     color: #fff;
   }
@@ -340,38 +340,22 @@ footer p{
   nav .menu:hover .dropmenu{
     display: block;
   }
-  .btn{
-    padding: 0 6px;
-    border-radius: 5px;
-  }
 
-  nav form .btn{
-    padding: 12px 6px;
-    border-radius: 5px;
-  }
-
-  nav form{
-    margin-top: 0;
-    max-width: 100%;
-  }
-
-  nav form input[type="text"]{
-    padding: 20px 0 20px 5px;
-    border-radius: 5px;
-  }
   .side-bar {
     max-width: 100%;
     min-height: 510px;
   }
-  gallery .itmes {
+  .gallery .itmes {
     text-align: center;
  }
- gallery .itmes .itme-1,
-  .gallery .itmes .itme-2,
-   .gallery .itmes .itme-3 {
+
+   .gallery .itmes .itme{
     max-width: 100%;
     float: none;
-}
+ }
+ nav form{
+   display: none;
+ }
 }
 @media(min-width: 568px) and (max-width:767px){
   .container {
@@ -454,9 +438,8 @@ footer p{
   .gallery .itmes {
     text-align: center;
  }
- .gallery .itmes .itme-1,
-  .gallery .itmes .itme-2,
-   .gallery .itmes .itme-3 {
+
+   .gallery .itmes .itme {
     max-width: 100%;
     float: none;
 }
