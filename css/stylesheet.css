@@ -18,7 +18,7 @@ body{
 }
 /*================ Start Header ==============*/
 header,h1,h2,h3{
-  font-family: 'Baloo', cursive;
+  font-family: 'Capriola', sans-serif;
 }
 header .brand{
   max-height: 120px;
@@ -27,7 +27,7 @@ header .brand{
 }
 
 header .brand h1{
-  padding: 17px 5px;
+  padding: 40px 5px;
   font-size: 55px;
 }
 
@@ -51,7 +51,7 @@ header nav .links li{
 
 header nav .links li a{
   text-decoration: none;
-  padding: 16px 159px;
+  padding: 20px 155px;
   background: gray;
   font-weight: bold;
   color: #000;
@@ -75,7 +75,7 @@ header nav .links li a:hover{
 .main-articles .first-header,
 .main-articles .second-header{
   background: #ddd;
-    padding: 10px 0;
+    padding: 18px 0;
     border-bottom: 2px solid #4e4242;
     margin-bottom: 10px;
     max-width: 100%;
@@ -91,7 +91,7 @@ header nav .links li a:hover{
 .main-articles .article-1 h2,
 .main-articles .article-2 h2{
     padding: 5px 0 15px 0;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .main-articles .article-1 p,
@@ -303,7 +303,7 @@ footer p{
 @media(max-width: 567px){
   header .brand h1{
     font-size: 35px;
-    padding: 17px 5px;
+    padding: 30px 5px;
   }
   .main-articles{
     max-width: 100%;
@@ -341,7 +341,7 @@ footer p{
   nav .menu >a{
     text-decoration: none;
     font-size: 25px;
-    padding: 10px;
+    padding: 16px;
     background: #cc0000;
     color: #fff;
   }
@@ -373,8 +373,8 @@ footer p{
       max-width: 538px;
   }
   header .brand h1{
-    font-size: 45px;
-    padding: 17px 5px;
+    font-size: 35px;
+    padding: 30px 5px;
   }
   .main-articles{
     max-width: 100%;
@@ -412,7 +412,7 @@ footer p{
   nav .menu >a{
     text-decoration: none;
     font-size: 25px;
-    padding: 10px;
+    padding: 16px 8px;
     background: #cc0000;
     color: #fff;
   }
@@ -492,7 +492,7 @@ footer p{
   nav .menu >a{
     text-decoration: none;
     font-size: 30px;
-    padding: 7px 10px 5px 10px;
+    padding: 16px 10px;
     background: #cc0000;
     color: #fff;
   }
@@ -523,7 +523,7 @@ footer p{
       max-width: 962px;
   }
   header nav .links li a{
-    padding: 16px 124px;
+    padding: 18px 120px;
   }
   .hidden-md{
     display: none;
