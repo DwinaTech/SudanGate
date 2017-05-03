@@ -214,7 +214,7 @@ article img{
 }
 .gallery h1:first-child{
   font-size: 40px;
-  padding: 10px 5px;
+      padding: 40px 0 15px 0;
 }
 .gallery .itmes{
  max-width: 100%;
@@ -231,10 +231,10 @@ article img{
   margin-right: 3%;
 }
 .gallery .itmes .itme h2:first-child{
-    padding: 10px 0 2px 0;
+    padding: 10px 0 5px 0;
     font-size: 25px;
     border-bottom: 2px dashed #cc0000;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .gallery .itmes .itme img{
   max-width: 100%;
