@@ -87,8 +87,8 @@ header nav .links li a:hover{
   max-width: 100%;
 }
 
-.main-articles .article-1 h1,
-.main-articles .article-2 h1{
+.main-articles .article-1 h2,
+.main-articles .article-2 h2{
     padding: 5px 0 15px 0;
     font-size: 30px;
 }
