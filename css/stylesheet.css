@@ -3,8 +3,9 @@ body{
   background: #ddd;
   font-size: 16px;
   font-family: arial;
-  font-family: 'Audiowide', cursive;
+  font-family: 'Montserrat', sans-serif;
   color: #000;
+  line-height: 1.8em;
 }
 
 *{
