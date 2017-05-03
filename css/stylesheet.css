@@ -4,6 +4,7 @@ body{
   font-size: 16px;
   font-family: arial;
   font-family: 'Audiowide', cursive;
+  color: #000;
 }
 
 *{
@@ -30,11 +31,12 @@ header .brand h1{
 }
 
 header nav{
-  min-height: 60px;
+  min-height: 65px;
   max-width: 100%;
   background: #000;
   color: #fff;
   font-size: 18px;
+  border-bottom: 5px solid #cc0000;
 }
 
 header nav .links{
@@ -55,28 +57,25 @@ header nav .links li a{
 }
 
 header nav .links li .active{
-  background: #000;
+  background: #461e1e;
   color: #ddd;
 }
 header nav .links li a:hover{
-  background: #000;
-  color: #ddd;
+  background: #ccc;
+  color: #cc0000;
 }
 /*================ Start Main Content ==============*/
 .main-articles{
   max-width: 66%;
-  background: #5a5555;
-  color: #fff;
+  background: #d3cccc;
   overflow: hidden;
 }
 
 .main-articles .first-header,
 .main-articles .second-header{
-  background: #454141;
-    padding: 10px 0 15px 0;
-    color: #fff;
-    border-bottom: 2px solid #fff;
-    border-top: 3px solid #000;
+  background: #ddd;
+    padding: 10px 0;
+    border-bottom: 2px solid #4e4242;
     margin-bottom: 10px;
     max-width: 100%;
 }
@@ -84,14 +83,13 @@ header nav .links li a:hover{
 .main-articles .article-1,
 .main-articles .article-2{
   padding: 0 5px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   max-width: 100%;
 }
 
 .main-articles .article-1 h1,
 .main-articles .article-2 h1{
     padding: 5px 0 15px 0;
-    color: #000;
     font-size: 30px;
 }
 
@@ -108,16 +106,14 @@ article img{
 /*================= Start Aside Bar ===============*/
 .side-bar{
   max-width: 34%;
-  background: #808080;
-  border-top: 3px solid #000;
-  min-height: 1382px;
+  background: #ddd;
 }
 
 .side-bar .aside-1 h2,
 .side-bar .aside-2 h2{
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #4e4242;
   margin-bottom: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .side-bar .aside-1 .media{
@@ -142,43 +138,54 @@ article img{
 }
 
 .side-bar .aside-1 .media .face{
-  color: #00f;
-}
-
-.side-bar .aside-1 .media .face:hover,
-.side-bar .aside-1 .media .face:focus{
   color: #fff;
   background: #00f;
   border: 2px solid #00f;
 }
 
-.side-bar .aside-1 .media .youtobe{
-  color: red;
+.side-bar .aside-1 .media .face:hover,
+.side-bar .aside-1 .media .face:focus{
+  color: #c9bbbb;
+  background: #070798;
+  border: 2px solid #070798;
 }
 
-.side-bar .aside-1 .media .youtobe:hover,
-.side-bar .aside-1 .media .youtobe:focus{
+.side-bar .aside-1 .media .youtobe{
   color: #fff;
   background: red;
   border: 2px solid red;
 }
 
-.side-bar .aside-1 .media .twitter{
-  color: #0ff;
+.side-bar .aside-1 .media .youtobe:hover,
+.side-bar .aside-1 .media .youtobe:focus{
+  color: #f1f1f1;
+  background: #b62a2a;
+  border: 2px solid #b62a2a;
 }
 
-.side-bar .aside-1 .media .twitter:hover,
-.side-bar .aside-1 .media .twitter:focus{
+.side-bar .aside-1 .media .twitter{
   color: #fff;
   background: #0ff;
   border: 2px solid #0ff;
 }
 
+.side-bar .aside-1 .media .twitter:hover,
+.side-bar .aside-1 .media .twitter:focus{
+  color: #f1f1f1;
+  background: #3fb9b9;
+  border: 2px solid #3fb9b9;
+}
+
 .side-bar .aside-1,
 .side-bar .aside-2{
   padding: 10px;
-  margin: 5px;
   max-width: 100%;
+}
+
+.side-bar .aside-2{
+  background: #ccc;
+  padding: 15px;
+  margin: 10px;
 }
 /*================= Start About Us ===============*/
 .about-us{
@@ -241,7 +248,7 @@ footer{
   min-height: 60px;
   color: #fff;
   background: #000;
-  border-top: 2px solid #cc0000;
+  border-top: 5px solid #cc0000;
 }
 
 footer p{
@@ -345,10 +352,6 @@ footer p{
     display: block;
   }
 
-  .side-bar {
-    max-width: 100%;
-    min-height: 510px;
-  }
   .gallery .itmes {
     text-align: center;
  }
@@ -366,7 +369,7 @@ footer p{
 }
 @media(min-width: 568px) and (max-width:767px){
   .container {
-      max-width: 737px;
+      max-width: 538px;
   }
   header .brand h1{
     font-size: 45px;
@@ -437,10 +440,6 @@ footer p{
   nav form input[type="text"]{
     padding: 20px 10px 20px 15px;
     border-radius: 5px;
-  }
-  .side-bar {
-    max-width: 100%;
-    min-height: 510px;
   }
   .gallery .itmes {
     text-align: center;
@@ -516,10 +515,6 @@ footer p{
     padding: 20px 10px;
     border-radius: 5px;
   }
-  .side-bar {
-    max-width: 100%;
-    min-height: 510px;
-  }
 }
 
 @media (min-width: 992px) and  (max-width: 1199px){
@@ -532,9 +527,6 @@ footer p{
   .hidden-md{
     display: none;
   }
-  .side-bar {
-    min-height: 1298px;
-}
 }
 
 @media (min-width: 1200px){
