@@ -106,8 +106,9 @@ article img{
 }
 /*================= Start Aside Bar ===============*/
 .side-bar{
-  max-width: 34%;
+  max-width: 33%;
   background: #ddd;
+  margin-left: 1%;
 }
 
 .side-bar .aside-1 h2,
