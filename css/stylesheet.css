@@ -316,6 +316,7 @@ footer p{
   }
   .side-bar{
     max-width: 100%;
+    margin-left: 0;
   }
   header nav {
       position: relative;
@@ -387,6 +388,7 @@ footer p{
   }
   .side-bar{
     max-width: 100%;
+    margin-left: 0;
   }
   header nav {
       position: relative;
@@ -467,6 +469,7 @@ footer p{
   }
   .side-bar{
     max-width: 100%;
+    margin-left: 0;
   }
   header nav {
       position: relative;
