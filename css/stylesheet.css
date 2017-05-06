@@ -516,6 +516,11 @@ footer p{
     padding: 20px 10px;
     border-radius: 5px;
   }
+  .gallery h1:first-child{
+    font-size: 35px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 15px
+  }
 }
 
 @media (min-width: 992px) and  (max-width: 1199px){
