@@ -66,6 +66,9 @@ header nav .links li a:hover{
   color: #cc0000;
 }
 /*================ Start Main Content ==============*/
+.main{
+
+}
 .main-articles{
   max-width: 66%;
   background: #d3cccc;
@@ -534,6 +537,9 @@ footer p{
   .hidden-md{
     display: none;
   }
+  .main{
+    margin-top: 15px;
+  }
 }
 
 @media (min-width: 1200px){
@@ -542,5 +548,8 @@ footer p{
   }
   .hidden-lg{
     display: none;
+  }
+  .main{
+    margin-top: 15px;
   }
 }
