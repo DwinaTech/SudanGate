@@ -81,23 +81,32 @@ header nav .links li a:hover{
 .main-articles{
   max-width: 66%;
   overflow: hidden;
+
 }
 
 .main-articles .first-header,
 .main-articles .second-header{
-  background: #ddd;
+    background: #ddd;
     padding: 18px 0;
     border-bottom: 2px solid #4e4242;
     max-width: 100%;
+    font-size: 25px;
+}
+
+.main-articles .article-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background: #d3cccc;
 }
 
 .main-articles .article-1,
 .main-articles .article-2{
-  padding: 0 5px;
   padding-bottom: 20px;
-  max-width: 100%;
-  background: #d3cccc;
   margin-bottom: 10px;
+  width: 48%;
+  padding: 10px;
 }
 
 .main-articles .article-1 h2,
@@ -108,7 +117,7 @@ header nav .links li a:hover{
 
 .main-articles .article-1 p,
 .main-articles .article-2 p{
-        padding: 10px 10px 20px 10px;
+        padding: 10px 0px 20px 0px;
 }
 
 article img{
@@ -373,6 +382,19 @@ footer p{
  .gallery h1:first-child{
    font-size: 35px;
  }
+ .main-articles .article-content{
+   flex-direction: column;
+ }
+
+ .main-articles .article-1,
+ .main-articles .article-2{
+   width: 100%;
+ }
+ article .btn{
+   padding: 10px 8px;
+   border-radius: 10px;
+   font-size: 14px;
+ }
 }
 @media(min-width: 568px) and (max-width:767px){
   .container {
@@ -425,9 +447,14 @@ footer p{
     border-radius: 5px;
   }
 
+  article .btn{
+    padding: 12px 10px;
+    border-radius: 10px;
+  }
+
   nav form .btn{
     padding: 12px 6px;
-    border-radius: 5px;
+    border-radius: 0;
   }
 
   nav form{
@@ -437,7 +464,7 @@ footer p{
 
   nav form input[type="text"]{
     padding: 20px 10px 20px 15px;
-    border-radius: 5px;
+    border-radius: 0;
   }
   .gallery .itmes {
     text-align: center;
@@ -446,6 +473,14 @@ footer p{
    .gallery .itmes .itme {
     max-width: 100%;
     float: none;
+}
+.main-articles .article-content{
+  flex-direction: column;
+}
+
+.main-articles .article-1,
+.main-articles .article-2{
+  width: 100%;
 }
 }
 
@@ -493,7 +528,12 @@ footer p{
   }
   .btn{
     padding: 12px 10px;
-    border-radius: 5px;
+    border-radius: 0;
+  }
+
+  article .btn{
+    padding: 12px 10px;
+    border-radius: 10px;
   }
 
   nav form{
@@ -502,12 +542,20 @@ footer p{
 
   nav form input[type="text"]{
     padding: 20px 10px;
-    border-radius: 5px;
+    border-radius: 0;
   }
   .gallery h1:first-child{
     font-size: 35px;
     border-bottom: 2px solid #000;
     margin-bottom: 15px
+  }
+  .main-articles .article-content{
+    flex-direction: column;
+  }
+
+  .main-articles .article-1,
+  .main-articles .article-2{
+    width: 100%;
   }
 }
 
