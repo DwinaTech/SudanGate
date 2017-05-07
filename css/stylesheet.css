@@ -42,19 +42,28 @@ header nav{
 
 header nav .links{
   list-style: none;
-  padding-top: 16px;
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
 }
 
 header nav .links li{
-  display: inline-block;
+  display: flex;
+  width: 33.2%;
+  background: gray;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav .links li a{
   text-decoration: none;
-  padding: 18px 155px;
-  background: gray;
   font-weight: bold;
   color: #000;
+  display: flex;
+  flex: 1;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav .links li .active{
@@ -323,27 +332,16 @@ footer p{
       background: #7a3e3e;
   }
   header nav .links{
-    padding-top: 0;
-  }
-  header nav .links li {
-     display: block;
-  }
-  header nav .links li a {
-    padding: 10px;
-    display: block;
-    max-width: 100%;
-    border: 1px solid #cc0000;
-    text-align: center;
-  }
-  .dropmenu{
     display: none;
     position: absolute;
-    width: 100%;
-    top: 60px;
+    top: 65px;
     left: 0;
     right: 0;
-    height: 100%;
-    z-index: 999
+    z-index: 999;
+  }
+  header nav .links li {
+     width: 100%;
+     border-bottom: 2px solid #000;
   }
   nav .menu >a{
     text-decoration: none;
@@ -351,12 +349,13 @@ footer p{
     padding: 16px;
     background: #cc0000;
     color: #fff;
+    height: 65px;
   }
   nav .menu >a:hover{
     background: #000;
     color: #cc0000;
   }
-  nav .menu:hover .dropmenu{
+  nav .menu:hover .links{
     display: block;
   }
 
@@ -395,27 +394,16 @@ footer p{
       background: #7a3e3e;
   }
   header nav .links{
-    padding-top: 0;
-  }
-  header nav .links li {
-     display: block;
-  }
-  header nav .links li a {
-    padding: 10px;
-    display: block;
-    max-width: 100%;
-    border: 1px solid #cc0000;
-    text-align: center;
-  }
-  .dropmenu{
     display: none;
     position: absolute;
-    width: 100%;
-    top: 60px;
+    top: 65px;
     left: 0;
     right: 0;
-    height: 100%;
-    z-index: 999
+    z-index: 999;
+  }
+  header nav .links li {
+     width: 100%;
+     border-bottom: 2px solid #000;
   }
   nav .menu >a{
     text-decoration: none;
@@ -423,12 +411,13 @@ footer p{
     padding: 16px 8px;
     background: #cc0000;
     color: #fff;
+    height: 65px;
   }
   nav .menu >a:hover{
     background: #000;
     color: #cc0000;
   }
-  nav .menu:hover .dropmenu{
+  nav .menu:hover .links{
     display: block;
   }
   .btn{
@@ -476,27 +465,16 @@ footer p{
       background: #7a3e3e;
   }
   header nav .links{
-    padding-top: 0;
-  }
-  header nav .links li {
-     display: block;
-  }
-  header nav .links li a {
-    padding: 10px;
-    display: block;
-    max-width: 100%;
-    border: 1px solid #cc0000;
-    text-align: center;
-  }
-  .dropmenu{
     display: none;
     position: absolute;
-    width: 100%;
-    top: 60px;
+    top: 65px;
     left: 0;
     right: 0;
-    height: 100%;
-    z-index: 999
+    z-index: 999;
+  }
+  header nav .links li {
+     width: 100%;
+     border-bottom: 2px solid #000;
   }
   nav .menu >a{
     text-decoration: none;
@@ -504,12 +482,13 @@ footer p{
     padding: 16px 10px;
     background: #cc0000;
     color: #fff;
+    height: 65px;
   }
   nav .menu >a:hover{
     background: #000;
     color: #cc0000;
   }
-  nav .menu:hover .dropmenu{
+  nav .menu:hover .links{
     display: block;
   }
   .btn{
