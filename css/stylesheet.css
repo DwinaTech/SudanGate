@@ -102,23 +102,20 @@ header nav .links li a:hover{
   padding-bottom: 30px;
 }
 
-.main-articles .article-1,
-.main-articles .article-2{
+.main-articles .article{
   padding-bottom: 20px;
   margin-bottom: 10px;
   width: 48%;
   padding: 10px;
 }
 
-.main-articles .article-1 h2,
-.main-articles .article-2 h2{
+.main-articles .article h2{
     padding: 5px 0 15px 0;
     font-size: 25px;
 }
 
-.main-articles .article-1 p,
-.main-articles .article-2 p{
-        padding: 10px 0px 20px 0px;
+.main-articles .article p{
+    padding: 10px 0px 20px 0px;
 }
 
 article img{
@@ -392,8 +389,7 @@ footer p{
    flex-direction: column;
  }
 
- .main-articles .article-1,
- .main-articles .article-2{
+ .main-articles .article{
    width: 100%;
  }
  article .btn{
@@ -489,8 +485,7 @@ footer p{
   flex-direction: column;
 }
 
-.main-articles .article-1,
-.main-articles .article-2{
+.main-articles .article{
   width: 100%;
 }
 }
@@ -569,8 +564,7 @@ footer p{
     flex-direction: column;
   }
 
-  .main-articles .article-1,
-  .main-articles .article-2{
+  .main-articles .article{
     width: 100%;
   }
 }
@@ -592,8 +586,8 @@ footer p{
     padding: 0px 10px;
     font-size: 14px;
 }
-.main-articles .article-1 h2,
- .main-articles .article-2 h2 {
+
+ .main-articles .article h2 {
     font-size: 20px;
 }
 }
