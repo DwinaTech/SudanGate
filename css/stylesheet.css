@@ -50,7 +50,7 @@ header nav .links{
 
 header nav .links li{
   display: flex;
-  width: 33.2%;
+  width: 24.8%;
   background: gray;
   justify-content: center;
   align-items: center;
@@ -61,8 +61,9 @@ header nav .links li a{
   font-weight: bold;
   color: #000;
   display: flex;
-  flex: 1;
+  width: 24.8%;
   height: 65px;
+  flex: 1;
   justify-content: center;
   align-items: center;
 }
@@ -72,8 +73,8 @@ header nav .links li .active{
   color: #ddd;
 }
 header nav .links li a:hover{
-  background: #ccc;
   color: #cc0000;
+  background: #ccc;
 }
 /*================ Start Main Content ==============*/
 .main{
@@ -209,6 +210,56 @@ article img{
   padding: 15px;
   margin: 10px;
 }
+/*================= Start Contact ===============*/
+.contact{
+	color: #fff;
+}
+
+.contact .contact-header{
+	padding-top: 25px;
+	color: #ddd;
+}
+.contact p{
+	padding: 20px;
+}
+.contact form{
+	padding-bottom: 5px;
+}
+.contact form .input-control{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.contact form .input-control input{
+	width: 49%;
+	padding: 15px 10px;
+	border-radius: 10px;
+}
+.contact form .textarea-control{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5px;
+}
+.contact form .textarea-control textarea{
+	flex: 1;
+	min-height: 250px;
+	border-radius: 10px;
+}
+.btn-contact{
+  background: #0ff;
+    color: #000;
+    padding: 2px 20px;
+    border: 2px solid #0ff;
+    border-radius: 5px;
+    line-height: 2em;
+    font-size: 16px;
+}
+.btn-contact:hover{
+  background: #cc0000;
+  color: #0ff;
+  border: 2px solid #cc0000;
+}
 /*================= Start About Us ===============*/
 .about-us{
   background: #cdc9c9;
@@ -328,13 +379,6 @@ footer p{
     font-size: 35px;
     padding: 30px 5px;
   }
-  .main-articles{
-    max-width: 100%;
-  }
-  .side-bar{
-    max-width: 100%;
-    margin-left: 0;
-  }
   header nav {
       position: relative;
       background: #7a3e3e;
@@ -366,7 +410,10 @@ footer p{
   nav .menu:hover .links{
     display: block;
   }
-
+  nav form{
+    display: none;
+  }
+/*======= Start Gallery =======*/
   .gallery .itmes {
     text-align: center;
  }
@@ -375,11 +422,13 @@ footer p{
     max-width: 100%;
     float: none;
  }
- nav form{
-   display: none;
- }
+
  .gallery h1:first-child{
    font-size: 35px;
+ }
+ /*======= Start main-articles =======*/
+ .main-articles{
+   max-width: 100%;
  }
  .main-articles .article-content{
    flex-direction: column;
@@ -392,6 +441,22 @@ footer p{
    padding: 10px 8px;
    border-radius: 10px;
    font-size: 14px;
+ }
+ /*======= Start Side-bar =======*/
+ .side-bar{
+   max-width: 100%;
+   margin-left: 0;
+ }
+ /*======= Start Contact =======*/
+ .contact form .input-control{
+ 	flex-direction: column;
+ }
+ .contact form .input-control input{
+ 	width: 100%;
+ 	margin-bottom: 5px;
+ }
+ .contact form .input-control input[type="text"]{
+ 	margin-bottom: 10px;
  }
 }
 @media(min-width: 568px) and (max-width:767px){
@@ -479,6 +544,17 @@ footer p{
 
 .main-articles .article{
   width: 100%;
+}
+/*======= Start Contact =======*/
+.contact form .input-control{
+	flex-direction: column;
+}
+.contact form .input-control input{
+	width: 100%;
+	margin-bottom: 5px;
+}
+.contact form .input-control input[type="text"]{
+	margin-bottom: 10px;
 }
 }
 
