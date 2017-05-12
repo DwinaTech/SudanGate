@@ -501,8 +501,11 @@ footer p{
 /*============================================*/
 @media(min-width: 568px) and (max-width:767px){
 /*============================================*/
-  .container {
-      max-width: 538px;
+  .container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0;
+    width: 100%;
   }
 /*#############################*/
 /*======= Start Header =======*/
@@ -598,6 +601,9 @@ footer p{
 /*##############################*/
 /*======= Start Contact =======*/
 /*############################*/
+.contact{
+  padding: 10px;
+}
 .contact form .input-control{
 	flex-direction: column;
 }
@@ -612,64 +618,25 @@ footer p{
 /*===============================================*/
 @media (min-width: 768px) and  (max-width: 991px){
 /*===============================================*/
-  .container {
-      max-width: 738px;
+
+  .container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0;
+    width: 100%;
   }
 /*#############################*/
 /*======= Start Header =======*/
 /*###########################*/
-  header nav {
-      position: relative;
-      background: #7a3e3e;
-  }
-  header nav .links{
-    display: none;
-    position: absolute;
-    top: 65px;
-    left: 0;
-    right: 0;
-    z-index: 999;
-  }
-  header nav .links li {
-     width: 100%;
-     border-bottom: 2px solid #000;
-  }
-  nav .menu >a{
-    text-decoration: none;
-    font-size: 30px;
-    padding: 16px 10px;
-    background: #cc0000;
-    color: #fff;
-    height: 65px;
-  }
-  nav .menu >a:hover{
-    background: #000;
-    color: #cc0000;
-  }
-  nav .menu:hover .links{
-    display: block;
-  }
-  .btn{
-    padding: 12px 10px;
-    border-radius: 0;
-  }
-
-  article .btn{
-    padding: 6px;
-    border-radius: 10px;
-  }
-
-  nav form{
-    margin-top: 0;
-  }
-
-  nav form input[type="text"]{
-    padding: 20px 10px;
-    border-radius: 0;
-  }
+.hidden-sm{
+  display: none;
+}
 /*##############################*/
 /*======= Start Gallery =======*/
 /*############################*/
+.gallery{
+  padding: 10px;
+}
   .gallery h1:first-child{
     font-size: 35px;
     border-bottom: 2px solid #000;
@@ -679,20 +646,19 @@ footer p{
 /*======= Start Side-bar =======*/
 /*#############################*/
   .side-bar{
-    max-width: 100%;
-    margin-left: 0;
+
   }
 /*####################################*/
 /*======= Start main-articles =======*/
 /*##################################*/
-  .main-articles{
-    max-width: 100%;
-  }
   .main-articles .article-content{
-    flex-direction: column;
+    padding-bottom: 65px;
   }
-  .main-articles .article{
-    width: 100%;
+  /*##############################*/
+  /*======= Start Contact =======*/
+  /*############################*/
+  .contact{
+    padding: 10px;
   }
 }
 /*===============================================*/
