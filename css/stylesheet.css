@@ -1,4 +1,6 @@
+/*---------------------------------------------*/
 /*================ Start Global ==============*/
+/*-------------------------------------------*/
 body{
   background: #413c3c;
   font-size: 16px;
@@ -16,7 +18,9 @@ body{
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
+/*---------------------------------------------*/
 /*================ Start Header ==============*/
+/*-------------------------------------------*/
 header,h1,h2,h3{
   font-family: 'Capriola', sans-serif;
 }
@@ -76,7 +80,9 @@ header nav .links li a:hover{
   color: #cc0000;
   background: #ccc;
 }
+/*---------------------------------------------------*/
 /*================ Start Main Content ==============*/
+/*-------------------------------------------------*/
 .main{
 
 }
@@ -125,7 +131,9 @@ article img{
   height: 30%;
   border-radius: 10px;
 }
+/*--------------------------------------------------*/
 /*================= Start Aside Bar ===============*/
+/*------------------------------------------------*/
 .side-bar{
   max-width: 30%;
   background: #ddd;
@@ -210,7 +218,9 @@ article img{
   padding: 15px;
   margin: 10px;
 }
+/*------------------------------------------------*/
 /*================= Start Contact ===============*/
+/*----------------------------------------------*/
 .contact{
 	color: #fff;
 }
@@ -260,7 +270,9 @@ article img{
   color: #0ff;
   border: 2px solid #cc0000;
 }
+/*-------------------------------------------------*/
 /*================= Start About Us ===============*/
+/*-----------------------------------------------*/
 .about-us{
   background: #cdc9c9;
 }
@@ -279,7 +291,9 @@ article img{
 .about-us .sudan-info p:last-child{
   padding-top: 10px;
 }
+/*------------------------------------------------*/
 /*================= Start Gallery ===============*/
+/*----------------------------------------------*/
 .gallery{
  padding: 0 5px;
  overflow: hidden;
@@ -318,7 +332,9 @@ article img{
 .gallery .itmes .itme-1 h4:last-child{
 
 }
+/*-----------------------------------------------*/
 /*================= Start Footer ===============*/
+/*---------------------------------------------*/
 footer{
   min-height: 60px;
   color: #fff;
@@ -329,7 +345,9 @@ footer{
 footer p{
   padding-top: 18px;
 }
+/*----------------------------------------------------*/
 /*================ Start My Frame Work ==============*/
+/*--------------------------------------------------*/
 .container{
   padding-left: 10px;
   padding-right: 10px;
@@ -373,15 +391,18 @@ footer p{
 .main-color{
   color: #cc0000;
 }
-/*================ Start Media Query ==============*/
+/*=========== Start Media Query ==============*/
 @media(max-width: 567px){
+/*============================================*/
   .container{
     padding-left: 0px;
     padding-right: 0px;
     margin: 0;
     width: 100%;
   }
+/*#############################*/
 /*======= Start Header =======*/
+/*###########################*/
   header .brand h1{
     font-size: 35px;
     padding: 30px 5px;
@@ -420,7 +441,9 @@ footer p{
   nav form{
     display: none;
   }
+/*##############################*/
 /*======= Start Gallery =======*/
+/*############################*/
   .gallery .itmes {
     text-align: center;
  }
@@ -433,7 +456,9 @@ footer p{
  .gallery h1:first-child{
    font-size: 35px;
  }
+  /*###################################*/
  /*======= Start main-articles =======*/
+ /*##################################*/
  .main-articles{
    max-width: 100%;
  }
@@ -449,12 +474,16 @@ footer p{
    border-radius: 10px;
    font-size: 14px;
  }
+ /*###############################*/
  /*======= Start Side-bar =======*/
+ /*#############################*/
  .side-bar{
    max-width: 100%;
    margin-left: 0;
  }
+ /*##############################*/
  /*======= Start Contact =======*/
+ /*############################*/
  .contact{
    padding: 10px;
  }
@@ -469,10 +498,15 @@ footer p{
  	margin-bottom: 10px;
  }
 }
+/*============================================*/
 @media(min-width: 568px) and (max-width:767px){
+/*============================================*/
   .container {
       max-width: 538px;
   }
+/*#############################*/
+/*======= Start Header =======*/
+/*###########################*/
   header .brand h1{
     font-size: 35px;
     padding: 30px 5px;
@@ -540,6 +574,9 @@ footer p{
     padding: 20px 10px 20px 15px;
     border-radius: 0;
   }
+/*##############################*/
+/*======= Start Gallery =======*/
+/*############################*/
   .gallery .itmes {
     text-align: center;
  }
@@ -548,6 +585,9 @@ footer p{
     max-width: 100%;
     float: none;
 }
+/*####################################*/
+/*======= Start main-articles =======*/
+/*##################################*/
 .main-articles .article-content{
   flex-direction: column;
 }
@@ -555,7 +595,9 @@ footer p{
 .main-articles .article{
   width: 100%;
 }
+/*##############################*/
 /*======= Start Contact =======*/
+/*############################*/
 .contact form .input-control{
 	flex-direction: column;
 }
@@ -567,19 +609,15 @@ footer p{
 	margin-bottom: 10px;
 }
 }
-
+/*===============================================*/
 @media (min-width: 768px) and  (max-width: 991px){
+/*===============================================*/
   .container {
       max-width: 738px;
   }
-  .main-articles{
-    max-width: 100%;
-  }
-
-  .side-bar{
-    max-width: 100%;
-    margin-left: 0;
-  }
+/*#############################*/
+/*======= Start Header =======*/
+/*###########################*/
   header nav {
       position: relative;
       background: #7a3e3e;
@@ -629,21 +667,37 @@ footer p{
     padding: 20px 10px;
     border-radius: 0;
   }
+/*##############################*/
+/*======= Start Gallery =======*/
+/*############################*/
   .gallery h1:first-child{
     font-size: 35px;
     border-bottom: 2px solid #000;
     margin-bottom: 15px
   }
+/*###############################*/
+/*======= Start Side-bar =======*/
+/*#############################*/
+  .side-bar{
+    max-width: 100%;
+    margin-left: 0;
+  }
+/*####################################*/
+/*======= Start main-articles =======*/
+/*##################################*/
+  .main-articles{
+    max-width: 100%;
+  }
   .main-articles .article-content{
     flex-direction: column;
   }
-
   .main-articles .article{
     width: 100%;
   }
 }
-
+/*===============================================*/
 @media (min-width: 992px) and  (max-width: 1199px){
+/*===============================================*/
   .container {
       max-width: 962px;
   }
@@ -665,8 +719,9 @@ footer p{
     font-size: 20px;
 }
 }
-
+/*========================================*/
 @media (min-width: 1200px){
+/*========================================*/
   .container {
       max-width: 1170px;
   }
