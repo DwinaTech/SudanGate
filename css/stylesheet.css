@@ -28,12 +28,21 @@ header .brand{
   max-height: 120px;
   max-width: 100%;
   background: #252831;
+  display: flex;
+  padding-left: 10px;
 }
 
 header .brand h1{
   padding: 40px 5px;
   font-size: 55px;
   color: #dd35dd;
+  flex: 1;
+}
+
+header .brand img{
+  flex: 1;
+  max-width: 10%;
+  max-height: 10%;
 }
 
 header nav{
