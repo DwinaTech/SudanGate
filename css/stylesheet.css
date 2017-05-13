@@ -414,8 +414,15 @@ footer p{
 /*======= Start Header =======*/
 /*###########################*/
   header .brand h1{
+    padding: 35px 5px;
     font-size: 35px;
-    padding: 30px 5px;
+  }
+  header .brand h1 span{
+    padding: 12px 0 0 35px;
+    display: block;
+  }
+  header .brand img{
+    max-width: 20% !important;
   }
   header nav {
       position: relative;
@@ -521,8 +528,11 @@ footer p{
 /*======= Start Header =======*/
 /*###########################*/
   header .brand h1{
-    font-size: 35px;
-    padding: 30px 5px;
+    font-size: 40px;
+    padding: 40px 0 0 5px;
+  }
+  header .brand img{
+    max-width: 12%;
   }
   .main-articles{
     max-width: 100%;
