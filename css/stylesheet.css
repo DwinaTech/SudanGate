@@ -25,24 +25,25 @@ header,h1,h2,h3{
   font-family: 'Capriola', sans-serif;
 }
 header .brand{
-  max-height: 120px;
   max-width: 100%;
   background: #252831;
   display: flex;
   padding-left: 10px;
+  max-height: 120px;
 }
 
 header .brand h1{
-  padding: 40px 5px;
   font-size: 55px;
   color: #dd35dd;
   flex: 1;
+  padding: 40px 0 0 5px;
 }
 
 header .brand img{
   flex: 1;
   max-width: 10%;
   max-height: 10%;
+  padding: 10px 0;
 }
 
 header nav{
