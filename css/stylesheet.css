@@ -2,7 +2,7 @@
 /*================ Start Global ==============*/
 /*-------------------------------------------*/
 body{
-  background: #413c3c;
+  background: #252831;
   font-size: 16px;
   font-family: arial;
   font-family: 'Montserrat', sans-serif;
@@ -27,7 +27,7 @@ header,h1,h2,h3{
 header .brand{
   max-height: 120px;
   max-width: 100%;
-  background: #413c3c;
+  background: #252831;
 }
 
 header .brand h1{
